@@ -76,4 +76,6 @@ python -m XGBoost_Model_UO
 
 After train the models set the Threshold found for ML predicitons in /src/Predict XGBoost_Runner.py
 
+python main.py -xgb -kc -odds=fanduel
+
 
