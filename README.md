@@ -1,6 +1,13 @@
 # 🏀 NBA Sports Betting Using Machine Learning  
 **Author:** [HyakuzaO](https://github.com/HyakuzaO)
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-red?logo=xgboost)
+![Optuna](https://img.shields.io/badge/Optuna-HPO-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Stars](https://img.shields.io/github/stars/HyakuzaO/NBA-Machine-Learning-Sports-Betting-By-HyakuzaO?style=social)
+
 <img src="https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting/blob/master/Screenshots/output.png" width="1010" height="292" />
 
 ---
@@ -23,8 +30,6 @@ It also calculates:
 ---
 
 ## ⚙️ System Overview
-
-### # NBA Machine Learning Sports Betting
 
 A predictive system for NBA games built with **Python 3.11**, using state-of-the-art **machine learning** techniques to estimate win probabilities and totals (O/U), compute **Expected Value (EV)**, and apply the **Kelly Criterion** for bankroll management.  
 Includes **Optuna** for intelligent **hyperparameter optimization**.
@@ -57,4 +62,5 @@ Includes **Optuna** for intelligent **hyperparameter optimization**.
 git clone https://github.com/HyakuzaO/NBA-Machine-Learning-Sports-Betting-By-HyakuzaO.git
 cd NBA-Machine-Learning-Sports-Betting-By-HyakuzaO
 pip install -r requirements.txt
+
 
