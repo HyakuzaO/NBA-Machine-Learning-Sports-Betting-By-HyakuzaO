@@ -62,5 +62,10 @@ Includes **Optuna** for intelligent **hyperparameter optimization**.
 git clone https://github.com/HyakuzaO/NBA-Machine-Learning-Sports-Betting-By-HyakuzaO.git
 cd NBA-Machine-Learning-Sports-Betting-By-HyakuzaO
 pip install -r requirements.txt
+# Create dataset with the latest data for 2025-26 season
+cd src/Process-Data
+python -m Get_Data
+python -m Get_Odds_Data
+python -m Create_Games
 
 
